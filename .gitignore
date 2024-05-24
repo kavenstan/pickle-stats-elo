@@ -160,4 +160,4 @@ cython_debug/
 #.idea/
 
 input_csv/*
-output_json/*
+output_json/*.json
