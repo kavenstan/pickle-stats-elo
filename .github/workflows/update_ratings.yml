@@ -36,7 +36,7 @@ jobs:
       - name: Run script to update ratings
         run: |
           source venv/bin/activate
-          python scripts/generate_data.py
+          python scripts/elo_ratings.py
           
       - name: Upload JSON to S3
         run: |
